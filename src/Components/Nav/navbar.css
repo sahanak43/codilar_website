@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    background-color: #6e716e;
+    position: sticky;
+    width: auto;
+    display: flex;
+    color: white;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 42px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.menu{
+    order: 2;
+    display: flex;
+}
+.selection{
+    background-color: #6e716e;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1.42;
+}
+.image{
+    height: 101.7px;
+    width: 170px;
+}
+.cart{
+    height: 32px;
+    width: 250px;
+    border: 1px solid #c2c2c2;
+    
+}
+.icon{
+    padding-left: 10px;
+}
+.sub-nav-parent{
+    margin-bottom: 60px;
+}
